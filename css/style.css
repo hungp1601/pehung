@@ -86,7 +86,7 @@
   font-size: 1rem;
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header-right-2 > a,
@@ -94,7 +94,7 @@
   font-size: 1rem;
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .setting {
@@ -111,5 +111,20 @@
 	color: #000;
 }
 
+.header-2{
+	padding-top: calc(80vmax / 10);
+    padding-bottom: calc(80vmax / 10);
+	padding-right: 4vw;
+    padding-left: 4vw;
+	white-space: pre;
+}
+.header-2>h1{
+	
+	font-size: calc((4 - 1) * 1.2vw + 1rem);
+	white-space: pre;
+	line-height: 2.5rem;
+	margin: 2rem 0;
+	font-weight: 600;
+}
 
 
