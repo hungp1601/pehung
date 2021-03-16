@@ -57,19 +57,59 @@
   background-size: cover;
   position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: row;
   color: #fff;
 }
-
+.header-burger {
+  display: none;
+}
 .header-1 {
-  padding: 6vh;
+  padding: 3vw 4vw;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .title {
-  
   font-size: 2.5rem;
   font-weight: 500;
-
 }
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-right-1 {
+  margin-left: 1.3vw;
+}
+.header-right-1 > a,
+.header-right-1 > a:hover {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-right-2 > a,
+.header-right-2 > a:hover {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.setting {
+  margin: 0 0 0 3.5vw;
+}
+
+.setting-1{
+	background-color: #fff;
+	
+	padding: .96em 1.6032em;
+}
+.setting-1 > a,
+.setting-1 > a:hover {
+	color: #000;
+}
+
+
+
