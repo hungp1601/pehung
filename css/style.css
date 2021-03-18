@@ -68,9 +68,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.title {
-  font-size: 2.5rem;
+
+.title-1:hover, .title-1 {
+  font-size: 2rem;
   font-weight: 500;
+  color: #fff;
+  text-decoration: none;
 }
 .header-right {
   display: flex;
@@ -125,6 +128,10 @@
 	line-height: 2.5rem;
 	margin: 2rem 0;
 	font-weight: 600;
+}
+
+.body-1{
+
 }
 
 
