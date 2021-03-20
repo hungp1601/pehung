@@ -5,7 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* gridview */
+/* grid view */
 
 .col-1 {
   width: 8.33%;
@@ -106,14 +106,15 @@
 
 .setting-1{
 	background-color: #fff;
-	
 	padding: .96em 1.6032em;
 }
-.setting-1 > a,
-.setting-1 > a:hover {
+.setting-1,
+.setting-1 :hover {
 	color: #000;
 }
-
+.setting-1:hover{
+  opacity:0.5;
+}
 .header-2{
 	padding-top: calc(80vmax / 10);
     padding-bottom: calc(80vmax / 10);
@@ -131,7 +132,16 @@
 }
 
 .body-1{
-
+  padding: 6.6vmax 4vw;
+  background-color: #bfb1c4;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
 }
 
+.transform{
+  opacity: 1;
+  transform: matrix(1,0,0,1,0,0);
+}
 
