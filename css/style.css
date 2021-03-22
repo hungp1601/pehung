@@ -333,6 +333,8 @@ header{
   }
   .logo{
     width: 50%;
-    
+  }
+  .body-3,.body-4,.body-5{
+    margin-top: 5%;
   }
 }
